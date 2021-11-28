@@ -7,13 +7,10 @@ export default class StraightController {
         switch (method){
             case 'CDA':
                 return this.straightService.CDAStraight(firstPoint,secondPoint);
-                break;
             case'Brez':
                 return this.straightService.BrezStraight(firstPoint,secondPoint);
-                break;
             case'VY':
                 return this.straightService.VyStraight(firstPoint,secondPoint);
-                break;
         }
     }
 }
