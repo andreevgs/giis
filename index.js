@@ -1,7 +1,7 @@
 import express from 'express'
 import { injector } from "./injector.js";
 import cors from 'cors';
-import curvRouter from './curv/curv.route';
+import curvRouter from './curv/curv.route.js';
 
 const corsOptions = {
     origin: '*'
@@ -10,7 +10,6 @@ const corsOptions = {
 const app = express();
 
 const straightController = injector.getStraightController;
-const curvController = injector.getCurvController;
 
 app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: true }));

@@ -17,6 +17,7 @@ export default class StraightService {
             firstPoint.x = firstPoint.x - 0 + xIncrement;
             firstPoint.y = firstPoint.y - 0 + yIncrement;
             result.push({ x: firstPoint.x, y: firstPoint.y });
+            // console.log({ x: firstPoint.x, y: firstPoint.y, i: i });
         }
         return result;
     }

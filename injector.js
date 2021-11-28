@@ -1,7 +1,7 @@
 import StraightService from "./straight/straight.service.js";
-import CurvService from "./curv/curv.service";
+import CurvService from "./curv/curv.service.js";
 import StraightController from "./straight/straight.controller.js";
-import CurvController from "./curv/curv.controller";
+import CurvController from "./curv/curv.controller.js";
 
 class Injector{
     constructor() {
